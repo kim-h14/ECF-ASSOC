@@ -1,0 +1,213 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding: 10%;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+  width: 100%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #01c0f7;
+  width: auto;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Nav Bar */
+
+.navbar {
+  padding-bottom: 5rem;
+}
+
+.navbar-toggler{
+  filter: invert(100%);
+  margin-left: 90%;
+  margin-bottom: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-text {
+  color: #000;
+}
+
+.navbar-image {
+  height: 7rem;
+  width: 7rem;
+  align-self: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Heading */
+
+.welcome-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.title-image {
+  border-radius: 20%;
+  margin-top: 1.8rem;
+  /* height: 22rem; */
+  width: 65%;
+}
+
+.title-text {
+  color: hsl(0, 3%, 18%);
+  justify-self: center;
+}
+
+.button-don {
+  background-color: #0474ba;
+}
+
+/* Who are we */
+
+.who-text {
+  font-size: 1.2 rem;
+  justify-content: center;
+}
+
+/* Events */
+
+.card {
+  background-color: #01c0f7;
+  margin: 0.5rem;
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+.card-img-top {
+  border-radius: 100%;
+  display: block;
+  margin: 2rem auto 2rem auto;
+  height: 12rem;
+  width: 12rem;
+}
+
+.events-big-heading {
+  font-size: 50px;
+  padding: 5%;
+}
+
+.btn-infos {
+  background-color: #0474ba;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+/* Testimonials */
+
+.testimonial-img {
+  border-radius: 100%;
+  /* height: 20rem; */
+  width: 50%;
+  align-content: center;
+}
+
+.carousel-item {
+  padding: 8% 30% 10%;
+}
+
+.testimonial-heading {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding-top: 10%;
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-top: 5%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%);
+}
+
+/* Footer */
+
+#footer {
+  line-height: 1.5;
+  padding:7% 15%;
+}
+
+.social-icons{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1rem;
+}
+
+
+/* Media Query */
+@media screen and (max-width:320px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .welcome-heading{
+    font-size: 1.5rem;
+  }
+  .title-text {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .testimonial-img {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+  }
+}
